@@ -76,6 +76,7 @@ void setup()
    hh = timeClient.getHours ();
    mm = timeClient.getMinutes ();
    ss = timeClient.getSeconds ();
+   targetTime = millis();
 }
 
 void loop()
